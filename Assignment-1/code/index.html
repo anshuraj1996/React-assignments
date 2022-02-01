@@ -14,9 +14,27 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
-
+const ResponsivelUL=({props})=>{
+return (
+<div class="container">
+<div class="row yellow">
+  <div class="content"></div>
+  <div class="content"></div>
+  </div>
+<div class="row red">
+  <div class="content"></div>
+  </div>
+<div class="row blue">
+  <div class="content"></div>
+  <div class="content"></div>
+  <div class="content"></div>
+  </div>
+</div>
+)}
+ ReactDOM.render(<ResponsivelUL></ResponsivelUL>,document.getElementById('root'));
 </script>
+
+
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
