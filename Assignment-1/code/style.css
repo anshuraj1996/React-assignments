@@ -1,1 +1,70 @@
+<<<<<<< HEAD
+.container{
+    height: auto;
+    width: auto;
+    background-color: darkgray;
+}
+.row{
+    display: block;
+    width: auto;
+    height: 150px;
+}
+.yellow{
+    display: flex;
+}
+.yellow .content{
+    background-color: rgb(236, 172, 8);
+    margin: 10px;
+    flex:1 1 auto;
+}
+.red{
+    display: flex;
+}
+.red .content{
+    background-color: red;
+    margin: 10px;
+    flex: 1 1 auto;
+}
+.blue{
+    display: flex;
+}
+.blue .content{
+    background-color: rgb(39, 16, 189);
+    margin: 10px;
+    flex: 1 1 auto;
+}
+@media screen and (min-width: 1023px){
+    .blue{
+        flex-direction: column;
+    }
+    .blue .content{
+        height: 75px;
+    }
+}
+@media screen and (min-width: 320px) and(max-width:765px) {
+    .yellow{
+        flex-direction: column;
+    }
+    .yellow .content{
+        height: 75px;
+    }
+}
+@media screen and (min-width:765px) and (max-width:1024px){
+    .yello .content{
+        flex: 1 1 auto;
+    }
+    .red .content{
+        flex: 1 1 auto;
+    }
+    .blue .content{
+        flex: 1 1 auto;
+    }
+    .blue{
+        flex-direction: column;
+    }
+}
+/* dsdsoop */
+
+=======
+>>>>>>> bb3b9b24fead2028ec87f951fc5d3316841702b0
 

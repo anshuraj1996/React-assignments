@@ -1,0 +1,49 @@
+.site-container{
+    height: 1000px;
+    width: 100%;
+}
+.person{
+    text-align: center;
+    border: 1px solid rgb(197, 195, 195);
+    background-color: rgb(241, 239, 235);
+    height: 10%;
+}
+.personid {
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}
+button{
+    float:right;
+    color: white;
+    background-color: black;
+    
+    margin-right: 10px;
+}
+.customer-info, .order-info, .product-list{
+    padding-left: 50px;
+    border: 1px solid rgb(197, 195, 195);
+    margin-top: 30px;
+}
+.order-info{
+    background-color:rgb(245, 242, 238) ;
+}
+.col{
+    display: inline-block;
+    width: 33%;
+}
+img, .productDescription{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin: 20px 40px 20px 0px;
+}
+input{
+    margin-top: 70px;
+   
+}
